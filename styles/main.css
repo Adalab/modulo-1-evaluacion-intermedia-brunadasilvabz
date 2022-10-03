@@ -1,6 +1,10 @@
 .main {
+    width: 100vw;
     height: 100vh;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3CDBC0;
 }
 
 .logo {
@@ -10,7 +14,6 @@
     padding-bottom: 10px;
 }
 .nav-bar {
-    width: 100vw;
     background-color: white;
     display: flex;
     justify-content: center;
@@ -31,17 +34,12 @@
 }
 
 .title {
-    background-color: #3CDBC0;
     font-size: 30px;
     font-family: 'Rubik', sans-serif;
     font-weight: 700;
     color: #FFFFFF;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    justify-items: center;
+    text-align: center;
     word-spacing: 100vw;
-    
 }
 
 @media all and (min-width: 768px) {
@@ -62,11 +60,6 @@
     }
 
     .title {
-        width: 100vw;
-        height: 100vh;
-        display: flex;
-        justify-content: center;
-        align-items: center;        
+        font-size: 40px;
     }
-
 }
