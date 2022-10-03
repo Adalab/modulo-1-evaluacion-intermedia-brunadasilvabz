@@ -1,4 +1,7 @@
-
+.main {
+    height: 100vh;
+    display: flex;
+}
 
 .logo {
     display: flex;
@@ -28,17 +31,17 @@
 }
 
 .title {
-    height: 100vh;
-    width: 100vw;
     background-color: #3CDBC0;
     font-size: 30px;
     font-family: 'Rubik', sans-serif;
     font-weight: 700;
     color: #FFFFFF;
+    height: 100%;
     display: flex;
     justify-content: center;
-    align-items: center;
-    word-spacing: 7ch;
+    justify-items: center;
+    word-spacing: 100vw;
+    
 }
 
 @media all and (min-width: 768px) {
@@ -56,6 +59,14 @@
 
     .list {
         padding-right: 30px;
+    }
+
+    .title {
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;        
     }
 
 }
